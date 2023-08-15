@@ -21,7 +21,8 @@ body * {
 }
 
 #container {
-  width: 588px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0;
   padding: 24px;
 }
@@ -84,7 +85,7 @@ ul li a:hover {
   background: var(--itens-color-hover);
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE 
 @media (max-width: 550px) {
   html,
   body {
@@ -108,3 +109,4 @@ ul li a:hover {
     font-size: 25px;
   }
 }
+*/
